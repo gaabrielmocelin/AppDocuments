@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Altitude Apps builds thoughtful, high-quality iOS apps with a focus on design, privacy, and performance." />
+        <title>Altitude Apps</title>
+
+        <link rel="stylesheet" href="assets/style.css" />
+
+        <!-- Optional: Basic social preview -->
+        <meta property="og:title" content="Altitude Apps" />
+        <meta property="og:description" content="Thoughtful iOS apps. Design-forward. Privacy-first." />
+        <meta property="og:type" content="website" />
+    </head>
+
+    <body>
+        <div class="page">
+            <div class="container">
+                <header class="topbar">
+                    <a class="brand" href="#top" aria-label="Altitude Apps Home">
+                        <span class="brandMark" aria-hidden="true"></span>
+                        <span class="brandText">Altitude Apps</span>
+                    </a>
+
+                    <nav class="nav">
+                        <a href="#products">Products</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#legal">Legal</a>
+                    </nav>
+                </header>
+
+                <main id="top" class="card">
+                    <section class="hero">
+                        <div>
+                            <p class="eyebrow">iOS app studio</p>
+                            <h1>Thoughtful apps, crafted with care.</h1>
+                            <p class="lead">
+                            Altitude Apps builds design-forward mobile products with a focus on performance, privacy, and delightful UX.
+                            </p>
+
+                            <div class="ctaRow">
+                                <a class="button" href="#products">See products</a>
+                                <a class="button secondary" href="#contact">Contact</a>
+                            </div>
+
+                            <div class="badges" aria-label="Highlights">
+                                <span class="badge">Privacy-first</span>
+                                <span class="badge">Subscription-ready</span>
+                                <span class="badge">Built for iOS</span>
+                            </div>
+                        </div>
+
+                        <div class="heroCard" role="presentation" aria-hidden="true">
+                            <div class="heroCardInner">
+                                <div class="heroIcon"></div>
+                                <div class="heroCardText">
+                                    <p class="heroCardTitle">Altitude Apps</p>
+                                    <p class="heroCardSubtitle">Ship fast. Stay polished.</p>
+                                </div>
+                            </div>
+                            <div class="heroCardFoot">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <hr class="divider" />
+
+                    <section id="products" class="section">
+                        <h2>Products</h2>
+                        <p class="muted">
+                        We create focused digital products that solve real problems.
+                        </p>
+
+                        <div class="grid">
+                            <article class="product">
+                                <div class="productHeader">
+                                    <div class="productIcon" aria-hidden="true"></div>
+                                    <div>
+                                        <h3 class="productTitle">CalorieScan</h3>
+                                        <p class="productSubtitle">Scan food, track calories, stay on goal.</p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                CalorieScan helps you log meals quickly and understand your weekly progress with clear insights.
+                                </p>
+
+                                <div class="productMeta">
+                                    <span class="chip">iOS</span>
+                                    <span class="chip">Health & Fitness</span>
+                                    <span class="chip">Subscriptions</span>
+                                </div>
+
+                                <!-- Replace # with your App Store link when ready -->
+                                <div class="productActions">
+                                    <a class="button small" href="#" aria-label="CalorieScan App Store link (add later)">App Store</a>
+                                    <a class="button small secondary" href="#legal">Privacy & Terms</a>
+                                </div>
+                            </article>
+
+                            <article class="product">
+                                <div class="productHeader">
+                                    <div class="productIcon alt" aria-hidden="true"></div>
+                                    <div>
+                                        <h3 class="productTitle">More coming soon</h3>
+                                        <p class="productSubtitle">We’re always building.</p>
+                                    </div>
+                                </div>
+                                <p>
+                                Altitude Apps is focused on shipping high-quality iOS apps with strong fundamentals: design, reliability, and trust.
+                                </p>
+                                <div class="productMeta">
+                                    <span class="chip">iOS</span>
+                                    <span class="chip">Design-led</span>
+                                    <span class="chip">Privacy-first</span>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section id="about" class="section">
+                        <h2>About</h2>
+                        <p>
+                        Altitude Apps is an independent app studio dedicated to building premium iOS experiences.
+                        We care about craft, clarity, and delivering real value to users.
+                        </p>
+
+                        <div class="callout">
+                            <h3>Our principles</h3>
+                            <ul>
+                                <li><strong>Simple:</strong> Minimal friction, clear UI, fast onboarding.</li>
+                                <li><strong>Reliable:</strong> Solid engineering and consistent performance.</li>
+                                <li><strong>Respectful:</strong> Privacy-first decisions and transparent policies.</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="contact" class="section">
+                        <h2>Contact</h2>
+                        <p class="muted">For support, business inquiries, or partnerships:</p>
+
+                        <!-- Replace with your real inbox(es) -->
+                        <div class="contactGrid">
+                            <div class="contactItem">
+                                <p class="contactLabel">Email</p>
+                                <a class="contactValue" href="mailto:contact@altitudeapps.dev">contact@altitudeapps.dev</a>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <span>© <span id="year"></span> Altitude Apps LTDA. All rights reserved.</span>
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
